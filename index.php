@@ -38,18 +38,30 @@
     ]
   ];
 
-  foreach ($info as $key => $reply) {
-    echo($info[$key]["question"] ."<br>". $info[$key]["answer"]."<br>");
-  }
 ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
     <title>Google Faq</title>
   </head>
   <body>
+    <div class="container">
+      <div class="faq_box">
+        <ul class="faq_box_list">
+          <?php foreach ($info as $key => $reply) { ?>
+            <li>
+              <h2> <?php  echo($info[$key]["question"]); ?></h2>
+              <p> <?php echo($info[$key]["answer"]); ?> </p>
+            </li>
+          <?php } ?>
+
+        </ul>
+      </div>
+    </div>
 
   </body>
 </html>
