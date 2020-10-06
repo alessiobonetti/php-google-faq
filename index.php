@@ -49,6 +49,24 @@
     <title>Google Faq</title>
   </head>
   <body>
+    <div class="faq_bar ">
+
+      <div class="faq_bar_logo flex">
+        <a href="#">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="logo google">
+          <span>Privacy e termini</span>
+        </a>
+      </div>
+
+      <div class"faq_menu">
+        <ul class="faq_menu_list flex">
+
+
+        </ul>
+
+      </div>
+    </div>
+
     <div class="container">
       <div class="faq_box">
         <ul class="faq_box_list">

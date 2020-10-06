@@ -4,8 +4,53 @@
   margin: 0 auto;
 }
 
+/* UTILITIES */
+.flex{
+  display: flex;
+}
+
+
+/* MENU */
+.faq_bar {
+  height: 150px;
+  width: 100%;
+  background-color: yellow;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+}
+
+.faq_bar_logo {
+  width: 100%;
+  height: 50%;
+  background-color: purple;
+}
+
+.faq_bar_logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.faq_bar_logo span {
+  padding: 0 5px;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.faq_menu {
+  width: 100%;
+  height: 50%;
+  background-color: green;
+}
+
+
+/* ANSWERS */
 .container {
   width: 1080px;
+  margin-top: 200px;
 }
 
 .faq_box_list {
