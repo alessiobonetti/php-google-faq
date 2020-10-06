@@ -52,19 +52,32 @@
     <div class="faq_bar ">
 
       <div class="faq_bar_logo flex">
-        <a href="#">
-          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="logo google">
-          <span>Privacy e termini</span>
-        </a>
+        <div class="faq_bar_logo_container">
+
+          <a href="#">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="logo google">
+            <span>Privacy e termini</span>
+          </a>
+        </div>
       </div>
 
-      <div class"faq_menu">
-        <ul class="faq_menu_list flex">
+      <div class"faq_menu flex">
+        <div class="faq_menu_list_container">
+
+          <ul class="faq_menu_list flex">
+            <li><a href="#">Introduzione</a></li>
+            <li><a href="#">Norme sulla privacy</a></li>
+            <li><a href="#">Termini di servizio</a></li>
+            <li><a href="#">Tecnologie</a></li>
+            <li><a href="#">Domande frequenti</a></li>
+          </ul>
+        </div>
+        <div class="faq_menu_user">
 
 
-        </ul>
-
+        </div>
       </div>
+
     </div>
 
     <div class="container">

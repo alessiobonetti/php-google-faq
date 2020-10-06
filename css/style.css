@@ -12,20 +12,20 @@
 
 /* MENU */
 .faq_bar {
-  height: 150px;
+  height: 75px;
   width: 100%;
-  background-color: yellow;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
 
 }
 
 .faq_bar_logo {
   width: 100%;
   height: 50%;
-  background-color: purple;
 }
 
 .faq_bar_logo a {
@@ -40,10 +40,32 @@
   color: grey;
 }
 
-.faq_menu {
-  width: 100%;
+.faq_menu{
   height: 50%;
-  background-color: green;
+  width: 100%;
+}
+
+.faq_menu_list {
+  list-style: none;
+}
+
+.faq_menu_list_container{
+  float: left;
+}
+
+.faq_menu_list li {
+  align-items: baseline;
+}
+
+.faq_menu_list a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: grey;
+  padding: 13px;
+}
+.faq_menu_list a:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
 }
 
 
